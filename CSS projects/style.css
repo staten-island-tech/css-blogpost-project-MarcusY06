@@ -1,8 +1,16 @@
-body {
+.background {
   background-color: red;
+}
+body {
   background: cadetblue;
   font-size: 25px;
 }
 h1 {
   color: darkblue;
+}
+h2 {
+  color: blue;
+}
+.head {
+  margin-top: 50px;
 }
