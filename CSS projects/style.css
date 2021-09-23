@@ -1,16 +1,19 @@
-.background {
-  background-color: red;
-}
 body {
-  background: cadetblue;
-  font-size: 25px;
+  background-color: teal;
 }
-h1 {
-  color: darkblue;
+.blogpost {
+  background-color: lightblue;
+  border: 5px solid white;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-top: 200px;
+  margin: 3px auto;
 }
-h2 {
-  color: blue;
-}
-.head {
-  margin-top: 50px;
+.gura {
+  border: 3px solid blue;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
