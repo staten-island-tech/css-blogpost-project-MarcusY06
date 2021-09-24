@@ -1,8 +1,31 @@
 body {
-  background-color: teal;
+  background-color: white;
 }
 .blogpost {
-  background-color: lightblue;
+  background-color: white;
+  border: 5px solid red;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-top: 200px;
+  margin: 3px auto;
+}
+.blogpost1 {
+  text-align: center;
+  border: 3px solid blue;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text1 {
+  text-align: center;
+  border: 5px white;
+  position: relative;
+  margin: 30%;
+}
+.blogpost2 {
+  background-color: grey;
   border: 5px solid white;
   height: 500px;
   width: 500px;
@@ -10,10 +33,15 @@ body {
   margin-top: 200px;
   margin: 3px auto;
 }
-.gura {
-  border: 3px solid blue;
+.header2 {
+  text-align: center;
+  border: 3px solid green;
   position: absolute;
-  top: 20%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+}
+.text2 {
+  text-align: center;
+  border: 5px lightblue;
+  position: relative;
 }
