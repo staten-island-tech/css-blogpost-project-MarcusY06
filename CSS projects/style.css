@@ -10,7 +10,7 @@ body {
   margin-top: 200px;
   margin: 3px auto;
 }
-.blogpost1 {
+.header1 {
   text-align: center;
   border: 3px solid blue;
   position: absolute;
@@ -39,9 +39,19 @@ body {
   position: absolute;
   top: 60%;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 .text2 {
   text-align: center;
-  border: 5px lightblue;
+  border: 3px green;
   position: relative;
+  margin: -20%;
 }
+.{
+  background-color: grey;
+  border: black;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-top: 200px;
+  margin: 3px auto;
