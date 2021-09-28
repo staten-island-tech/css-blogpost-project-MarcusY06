@@ -1,9 +1,12 @@
 body {
   background-color: white;
 }
+.Title {
+  text-align: center;
+}
 .blogpost {
   background-color: white;
-  border: 5px solid red;
+  border: 5px solid black;
   height: 500px;
   width: 500px;
   position: relative;
@@ -26,7 +29,7 @@ body {
 }
 .blogpost2 {
   background-color: grey;
-  border: 5px solid white;
+  border: 5px solid black;
   height: 500px;
   width: 500px;
   position: relative;
@@ -37,21 +40,34 @@ body {
   text-align: center;
   border: 3px solid green;
   position: absolute;
-  top: 60%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .text2 {
   text-align: center;
-  border: 3px green;
   position: relative;
-  margin: -20%;
+  margin-top: 30%;
 }
-.{
-  background-color: grey;
-  border: black;
+.blogpost3 {
+  background-color: lightblue;
+  border: 5px solid black;
   height: 500px;
   width: 500px;
   position: relative;
   margin-top: 200px;
   margin: 3px auto;
+}
+.header3 {
+  text-align: center;
+  border: 3px solid red;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text3 {
+  text-align: center;
+  position: relative;
+  margin-top: 30%;
+}
