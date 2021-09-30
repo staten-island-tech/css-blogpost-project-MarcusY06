@@ -3,12 +3,13 @@ body {
 }
 .Title {
   text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 .blogpost {
   background-color: white;
   border: 5px solid black;
-  height: 500px;
-  width: 500px;
+  height: 800px;
+  width: 600px;
   position: relative;
   margin-top: 200px;
   margin: 3px auto;
@@ -30,8 +31,8 @@ body {
 .blogpost2 {
   background-color: grey;
   border: 5px solid black;
-  height: 500px;
-  width: 500px;
+  height: 1150px;
+  width: 1500px;
   position: relative;
   margin-top: 200px;
   margin: 3px auto;
@@ -47,13 +48,13 @@ body {
 .text2 {
   text-align: center;
   position: relative;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 .blogpost3 {
   background-color: lightblue;
   border: 5px solid black;
-  height: 500px;
-  width: 500px;
+  height: 1150px;
+  width: 1500px;
   position: relative;
   margin-top: 200px;
   margin: 3px auto;
@@ -69,5 +70,13 @@ body {
 .text3 {
   text-align: center;
   position: relative;
-  margin-top: 30%;
+  margin-top: 10%;
+}
+.link {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.image {
+  text-align: center;
 }
