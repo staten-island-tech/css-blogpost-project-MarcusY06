@@ -8,7 +8,7 @@ body {
 .blogpost {
   background-color: white;
   border: 5px solid black;
-  height: 800px;
+  height: 700px;
   width: 600px;
   position: relative;
   margin-top: 200px;
@@ -21,17 +21,18 @@ body {
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: "Architects Daughter", cursive;
 }
 .text1 {
   text-align: center;
-  border: 5px white;
   position: relative;
   margin: 30%;
+  font-family: "Architects Daughter", cursive;
 }
 .blogpost2 {
   background-color: grey;
   border: 5px solid black;
-  height: 1150px;
+  height: 1000px;
   width: 1500px;
   position: relative;
   margin-top: 200px;
@@ -44,16 +45,18 @@ body {
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: "Style Script", cursive;
 }
 .text2 {
   text-align: center;
   position: relative;
   margin-top: 10%;
+  font-family: "Style Script", cursive;
 }
 .blogpost3 {
   background-color: lightblue;
   border: 5px solid black;
-  height: 1150px;
+  height: 1000px;
   width: 1500px;
   position: relative;
   margin-top: 200px;
@@ -66,17 +69,35 @@ body {
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: "Allan", cursive;
 }
 .text3 {
   text-align: center;
   position: relative;
   margin-top: 10%;
+  font-family: "Allan", cursive;
 }
-.link {
+.link1 {
   text-align: center;
-  margin-top: 10%;
+  margin: -20%;
+  font-family: "Architects Daughter", cursive;
 }
-
-.image {
+.image1 {
+  text-align: center;
+  margin: 30%;
+  right: 50%;
+}
+.link2 {
+  text-align: center;
+  font-family: "Style Script", cursive;
+}
+.image2 {
+  text-align: center;
+}
+.link3 {
+  text-align: center;
+  font-family: "Allan", cursive;
+}
+.image3 {
   text-align: center;
 }
